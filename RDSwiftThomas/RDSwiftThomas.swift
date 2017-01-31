@@ -65,19 +65,18 @@ public enum RDSysPage:String
 
 public class RDSwiftThomas:NSObject
 {
-    public static func openPage(_ aPageName: String, options: [String : Any] = [:], completionHandler completion: ((Bool) -> Swift.Void)? = nil)
+    public static func openPage(_ aPageName: String, completionHandler aCompletion: ((Bool) -> Swift.Void)? = nil)
     {
         let url = self.pageURL(pageName: aPageName);
         
         if #available(iOS 10.0, *)
         {
-            UIApplication.shared.open(url as URL, options: [:]) { (Bool) in
-            }
+            UIApplication.shared.open(url as URL, options: [:], completionHandler:aCompletion)
         }
         else
         {
             let ret:Bool = UIApplication.shared.openURL(url as URL);
-            completion!(ret);
+            aCompletion!(ret);
         }
     }
     

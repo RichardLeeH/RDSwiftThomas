@@ -750,6 +750,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RDSwiftThomas/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.richard.RDSwiftThomas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -774,6 +775,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RDSwiftThomas/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.richard.RDSwiftThomas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -831,6 +833,7 @@
 				9CC29CA01E3E37B1002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC29CA11E3E37B1002DF107 /* Build configuration list for PBXNativeTarget "RDSwiftThomasDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -839,6 +842,7 @@
 				9CC29CA31E3E37B1002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC29CA41E3E37B1002DF107 /* Build configuration list for PBXNativeTarget "RDSwiftThomasDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -847,6 +851,7 @@
 				9CC29CA61E3E37B1002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC29CC31E3E37D0002DF107 /* Build configuration list for PBXNativeTarget "RDSwiftThomas" */ = {
 			isa = XCConfigurationList;
@@ -855,6 +860,7 @@
 				9CC29CC51E3E37D0002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CC29CC71E3E37D0002DF107 /* Build configuration list for PBXNativeTarget "RDSwiftThomasTests" */ = {
 			isa = XCConfigurationList;
@@ -863,6 +869,7 @@
 				9CC29CC91E3E37D0002DF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

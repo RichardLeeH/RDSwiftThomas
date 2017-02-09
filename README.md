@@ -11,6 +11,31 @@ RDThomas is a Library for opening settings page and sub pages on iOS 8+ in Swift
 
 - iOS 8.0 or later
 
+## features
+
+- [x] /// open wifi page       		:RDSysPageWifi(无线网络)
+- [x] /// open buletooth page  		:RDSysPageBluetooth  (蓝牙)
+- [x] /// open hotsopt page    		:RDSysPageHotspot (个人热点)
+- [x] /// open about page      		:RDSysPageAbout (关于)
+- [x] /// open General         		:RDSysPageGeneral(通用)
+- [x] /// open Cellular        		:RDSysPageCellular(蜂窝移动)
+- [x] /// open iCloud          		:RDSysPage_iCloud
+- [x] /// open iCloud strorage 		:RDSysPage_iCloudStorage
+- [x] /// open app store       		:RDSysPageStore
+- [x] /// open notification    		:RDSysPageNotification(通知)
+- [x] /// open DISPLAY         		:RDSysPageDisplay(显示)
+- [x] /// open Location        		:RDSysPageLocation(位置)
+- [x] /// open Keyboard        		:RDSysPageKeyboard(键盘)
+- [x] /// open DateTime        		:RDSysPageDateTime(日期时间)
+- [x] /// open VPN             		:RDSysPageVPN
+- [x] /// open Phone           		:RDSysPagePhone(电话)
+- [x] /// open Sounds          		:RDSysPageSounds(声音)
+- [x] /// open Photos          		:RDSysPagePhotos(照片)
+- [x] /// open Wallpaper       		:RDSysPageWallpaper(壁纸)
+- [x] /// open BATTERY_USAGE   		:RDSysPageBATTERY(电池设置)
+- [x] /// open ACCESSIBILITY   		:RDSysPageACCESSIBILITY(辅助功能)
+- [x] /// open iOS SoftwareUpdate :RDSysPageSysUpdate(iOS 更新)
+
 ## Installation
 
 ## How To Use
@@ -40,13 +65,8 @@ There are three ways to use SDWebImage in your project:
 #### Podfile
 ```
 platform :ios, '8.0'
-pod 'RDThomas'
-```
-
-If you are using Swift, be sure to add `use_frameworks!` and set your target to iOS 8+:
-```
-platform :ios, '8.0'
 use_frameworks!
+pod 'RDThomas'
 ```
 
 ### Installation with Carthage (iOS 8+)
